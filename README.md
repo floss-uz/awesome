@@ -31,6 +31,7 @@
 * [Rust Kernel](https://github.com/ismoilovdevml/rust-os) - Rustda Yozilgan Kernel Rust dasturlash tilida yozilgan Operatsion Tizim
 * [rustix-vcs](https://github.com/knoxydev/rustix-vcs) - Version Control System
 * [Stubler](https://github.com/fromgodd/stubler-lang) - Assembly-like programming language
+* [TED](https://github.com/thelissimus/ted) - Text EDitor
 * [Terminal News](https://github.com/knoxydev/terminal-news) - A program for reading news from the command line.
 * [Tezzy](https://github.com/uwussimo/tezzy) - Tezzy is a social media platform designed to provide users with a fast, personalized, and engaging experience for sharing short messages, called "buzzes"
 * [Tigernet](https://github.com/tigernetframework/Tigernet) - Minimalistic, Open-Source and Cross-platform server-side framework for .NET
@@ -59,6 +60,7 @@
 * [@OgabekDev](https://github.com/OgabekDev)
 * [@orzklv](https://github.com/orzklv)
 * [@realtemirov](https://github.com/realtemirov)
+* [@thelissimus](https://github.com/thelissimus)
 * [@triistam](https://github.com/triistam)
 * [@uwussimo](https://github.com/uwussimo)
 * [@yetimdasturchi](https://github.com/yetimdasturchi)
