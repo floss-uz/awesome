@@ -1,4 +1,4 @@
-# Criterias
+# Criteria
 
 ## Outline
 
