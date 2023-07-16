@@ -41,8 +41,6 @@
 ## Organizations
 
 * [Deno Land | O'zbekiston](https://github.com/denolanduz)
-* [Mad Maids](https://github.com/mad-maids)
-* [Muxlisa AI](https://github.com/muxlisa-ai)
 * [nanoexpress](https://github.com/nanoexpress)
 * [Osmon Dasturlash Tili](https://github.com/osmon-lang)
 * [Rust - O'zbek Jamiyati](https://github.com/rust-lang-uz)
