@@ -2,6 +2,7 @@
 
 ## Projects
 
+* [aitemu](https://github.com/saidafzalkh/aitemu) - Open-Source Collection Management Tool
 * [Blockchain](https://github.com/ismoilovdevml/blockchain) - Rust Dasturlash tilida yozilgan Blockchain
 * [Bulut](https://github.com/osmon-lang/bulut) - Bulut Virtual Machine
 * [Chaqmoq](https://github.com/ismoilovdevml/chaqmoq) - Chaqmoq runtime
@@ -12,6 +13,7 @@
 * [Flask-Authlib](https://github.com/AbduazizZiyodov/flask-authlib) - Authentication library for Flask Web Framework.
 * [Havo](https://github.com/osmon-lang/havo) - Static compiler component for Osmon
 * [Izharul Ifadat](https://github.com/OgabekDev/IzharulIfadat) - Izharul Ifadat is a mobile app that provides users with audio lectures and dua recitation to deepen their understanding 10 chapters of Islam.
+* [JPRQ](https://github.com/azimjohn/jprq) - Free and open tool for exposing local servers to public network (the internet)
 * [Korrektor](https://github.com/uzinfocom-org/korrektor) - Linguistics of the new generation
 * [Korrektor Rust Lib](https://github.com/uzinfocom-org/korrektor-rs) - Improving uzbek language experience for developers
 * [Kusari](https://github.com/orzklv/kusari) - The url shortener which uses emoji domain
@@ -52,6 +54,7 @@
 
 * [@AbduazizZiyodov](https://github.com/AbduazizZiyodov)
 * [@akhmadiy](https://github.com/akhmadiy)
+* [@azimjohn](https://github.com/azimjohn)
 * [@fromgodd](https://github.com/fromgodd)
 * [@ismoilovdevml](https://github.com/ismoilovdevml)
 * [@knoxydev](https://github.com/knoxydev)
@@ -60,6 +63,7 @@
 * [@OgabekDev](https://github.com/OgabekDev)
 * [@orzklv](https://github.com/orzklv)
 * [@realtemirov](https://github.com/realtemirov)
+* [@saidafzalkh](https://github.com/saidafzalkh)
 * [@thelissimus](https://github.com/thelissimus)
 * [@triistam](https://github.com/triistam)
 * [@uwussimo](https://github.com/uwussimo)
