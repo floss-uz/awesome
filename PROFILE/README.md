@@ -1,4 +1,10 @@
-# Awesome Uzbek Open Source
+<p align="center">
+<h1 align="center">Awesome Uzbek Open Source</h1>
+<p align="center">Collections of archives by Awesome Uzbek</p>
+<img src="https://github.com/awesome-uz/.github/blob/main/PROFILE/banner.png?raw=true" align="center">
+</p>
+
+
 
 ## Projects
 
