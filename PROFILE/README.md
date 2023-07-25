@@ -6,8 +6,8 @@
 
 This project aims to collect Open Source projects, people and organizations that had impact on improvement of Uzbek Open Source. At the moment, project is divided into 3 categories which are:
 
-| [Projects](#projects) | [People](#people) | [Organizations](#organizations) |
-| :-------------------: | :---------------: | :-----------------------------: |
+| [Projects](#projects) | [Developers](#developers) | [Organizations](#organizations) |
+| :-------------------: | :-----------------------: | :-----------------------------: |
 
 ## Projects
 
