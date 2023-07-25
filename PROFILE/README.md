@@ -9,6 +9,16 @@ This project aims to collect Open Source projects, people and organizations that
 | [Projects](#projects) | [Developers](#developers) | [Organizations](#organizations) |
 | :-------------------: | :-----------------------: | :-----------------------------: |
 
+<p align="center">
+    <table align="center">
+        <tr>
+            <td align="center"><a href="#projects"><img src="https://img.shields.io/badge/Projects-40-blue.svg?style=flat-square" alt="Projects"></a></td>
+            <td align="center"><a href="#developers"><img src="https://img.shields.io/badge/Developers-40-blue.svg?style=flat-square" alt="Developers"></a></td>
+            <td align="center"><a href="#organizations"><img src="https://img.shields.io/badge/Organizations-40-blue.svg?style=flat-square" alt="Organizations"></a></td>
+        </tr>
+    </table>
+</p>
+
 ## Projects
 
 * [aitemu](https://github.com/saidafzalkh/aitemu) - Open-Source Collection Management Tool
