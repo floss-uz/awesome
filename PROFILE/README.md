@@ -4,7 +4,7 @@
 <img src="https://github.com/awesome-uz/.github/blob/main/PROFILE/banner.png?raw=true" align="center">
 </p>
 
-
+<p align="center">Collections of archives by Awesome Uzbek. This project aims to collect Open Source projects, people and organizations that had impact on improvement of Uzbek Open Source</p>
 
 ## Projects
 
