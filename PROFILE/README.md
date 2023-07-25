@@ -4,7 +4,9 @@
 <img src="https://github.com/awesome-uz/.github/blob/main/PROFILE/banner.png?raw=true" align="center">
 </p>
 
-This project aims to collect Open Source projects, people and organizations that had impact on improvement of Uzbek Open Source. At the moment, project is divided into 3 categories which are:
+<p align="center">
+    This project aims to collect Open Source projects, people and organizations that had impact on improvement of Uzbek Open Source. At the moment, project is divided into 3 categories which are Projects, Developers and Organizations. If you want to add your project, developer or organization, please read <a href="./CRIETERIA.md">criteria</a> first.
+</p>
 
 <p align="center">
     <table align="center">
