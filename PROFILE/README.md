@@ -34,9 +34,9 @@
 * [JPRQ](https://github.com/azimjohn/jprq) - Free and open tool for exposing local servers to public network (the internet)
 * [Korrektor](https://github.com/uzinfocom-org/korrektor) - Linguistics of the new generation
 * [Korrektor Rust Lib](https://github.com/uzinfocom-org/korrektor-rs) - Improving uzbek language experience for developers
+* [Korrektor Py](https://github.com/AbduazizZiyodov/korrektor-py) - Korrektor-Py - python library & wrapper for API of the https://korrektor.uz
 * [Kusari](https://github.com/orzklv/kusari) - The url shortener which uses emoji domain
 * [Makudaun!](https://github.com/orzklv/makudaun) - Markdown to HTML tool but this time on Rust
-* [markdaun](https://github.com/triistam/markdaun) - MD2HTML tool wtitten in V.
 * [Moan](https://github.com/orzklv/moan) - Moan decoding & encoding
 * [nanoexpress](https://github.com/nanoexpress/nanoexpress) - Professional backend framework for Node.js
 * [OINIX](https://github.com/ismoilovdevml/oinix) - Xinux Jamiyati OINIX minimal arch-based Operatsion Tizim
@@ -58,6 +58,10 @@
 * [trash-cp](https://github.com/akhmadiy/trash-cp) - Alternative for cp command in Linux/Unix
 * [Whitty](https://github.com/uwussimo/whitty) - College Connectivity Platform
 * [Xinux](https://github.com/uzinfocom-org/xinux) - Xinux OS - new linux distribution with channeling support (Replacement for Xeonix)
+* [payme-pkg](https://github.com/PayTechUz/payme-pkg) - Merchant Api and Subscribe Api Integration
+* [payme-sample](https://github.com/PayTechUz/payme-sample) - Payme Integration Sample with Python/Django
+* [paymego](https://github.com/PayTechUz/paymego) - SDK for payme.uz API 
+
 
 ## Organizations
 
@@ -67,6 +71,7 @@
 * [Rust - O'zbek Jamiyati](https://github.com/rust-lang-uz)
 * [Tigernet](https://github.com/tigernetframework)
 * [UZINFOCOM](https://github.com/uzinfocom-org)
+* [PayTechUz](https://github.com/PayTechUz)
 
 ## Developers
 
@@ -83,6 +88,6 @@
 * [@realtemirov](https://github.com/realtemirov)
 * [@saidafzalkh](https://github.com/saidafzalkh)
 * [@thelissimus](https://github.com/thelissimus)
-* [@triistam](https://github.com/triistam)
 * [@uwussimo](https://github.com/uwussimo)
 * [@yetimdasturchi](https://github.com/yetimdasturchi)
+* [@hoosnick](https://github.com/hoosnick)
