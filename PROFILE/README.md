@@ -61,7 +61,9 @@
 * [payme-pkg](https://github.com/PayTechUz/payme-pkg) - Merchant Api and Subscribe Api Integration
 * [payme-sample](https://github.com/PayTechUz/payme-sample) - Payme Integration Sample with Python/Django
 * [paymego](https://github.com/PayTechUz/paymego) - SDK for payme.uz API 
-
+* [pronouncer-telebot](https://github.com/rahmonov/pronouncer-telebot) - A bot for Telegram that simply pronounces the given words 
+* [whatthetrend.py](https://github.com/rahmonov/whatthetrend.py) - Python wrapper for What The Trend API 
+* [alcazar](https://github.com/rahmonov/alcazar) - Python Web Framework built for learning purposes 
 
 ## Organizations
 
@@ -91,3 +93,4 @@
 * [@uwussimo](https://github.com/uwussimo)
 * [@yetimdasturchi](https://github.com/yetimdasturchi)
 * [@hoosnick](https://github.com/hoosnick)
+* [@rahmonov](https://github.com/rahmonov)
