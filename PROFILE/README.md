@@ -25,7 +25,11 @@
 * [Bulut](https://github.com/osmon-lang/bulut) - Bulut Virtual Machine
 * [Chaqmoq](https://github.com/ismoilovdevml/chaqmoq) - Chaqmoq runtime
 * [Cron Jobs scheduler](https://github.com/MahdiyDev/cron-jobs) - cron jobs using c++ programming language
+* [cluster-service](https://github.com/akhmadiy/cluster-service) Simple cluster service in nodejs
 * [cyonix](https://github.com/uzinfocom-org/cyonix) - Rust-based toolkit to manage config files
+* [devops-journey](https://github.com/ismoilovdevml/devops-journey) DevOps Journey is an open-source educational platform dedicated to advancing the DevOps industry.
+* [dsalgo.uz](https://github.com/otabekswe/dsalgo) "Data Structure and Algorithms" uchun O'zbek tilidagi va illustratsiyalarga boy bo'lgan qo'llanma.
+* [devops-tools](https://github.com/ismoilovdevml/devops-tools) This is a github repository where I share my devops scripts with others. I hope this helps others too.
 * [DNS Server](https://github.com/ismoilovdevml/dns-server) - Rust Dasturlash tilida yozilgan DNS Server
 * [Docker Dashboard](https://github.com/AbduazizZiyodov/docker-dashboard) - Simple lightweight GUI application for working with Docker
 * [Flask-Authlib](https://github.com/AbduazizZiyodov/flask-authlib) - Authentication library for Flask Web Framework.
@@ -36,16 +40,20 @@
 * [Korrektor Rust Lib](https://github.com/uzinfocom-org/korrektor-rs) - Improving uzbek language experience for developers
 * [Korrektor Py](https://github.com/AbduazizZiyodov/korrektor-py) - Korrektor-Py - python library & wrapper for API of the https://korrektor.uz
 * [Kusari](https://github.com/orzklv/kusari) - The url shortener which uses emoji domain
+* [MusicCLI](https://github.com/otabekswe/MusicCLI)  MusicCLI is a user-friendly command-line interface that lets you download your favorite music directly from your terminal.
 * [Makudaun!](https://github.com/orzklv/makudaun) - Markdown to HTML tool but this time on Rust
 * [Moan](https://github.com/orzklv/moan) - Moan decoding & encoding
 * [nanoexpress](https://github.com/nanoexpress/nanoexpress) - Professional backend framework for Node.js
 * [OINIX](https://github.com/ismoilovdevml/oinix) - Xinux Jamiyati OINIX minimal arch-based Operatsion Tizim
 * [ORMX](https://github.com/murodovazizmurod/ormx) - ORM library for Python
 * [Osmon](https://github.com/osmon-lang/osmon) - Osmon Programming Language
+* [ops-in-maang](https://github.com/ismoilovdevml/ops-in-maang) Ops In MAANG
+* [os-dev-blog](https://github.com/ismoilovdevml/os-dev-blog) Open Source Developer Blog(Computer Science)
 * [php-onvif](https://github.com/yetimdasturchi/php-onvif) - Onvif implementation in php
 * [php-sms-sender](https://github.com/yetimdasturchi/php-sms-sender) - Bu kichik PHP dasturi GSM usb modem yordamida SMS xabarlarni yuborish va boshqarish uchun ishlatiladi
 * [Portier-ADPS](https://github.com/fromgodd/portier-adps) - Simple async port scanner written in Python for modular microservice.
 * [repoimpl](https://github.com/realtemirov/repoimpl) - Repositories, migrations and tests with model
+* [RustStrom](https://github.com/ismoilovdevml/RustStrom) Rust-Strom is a powerful and efficient Load Balancer
 * [RMX](https://github.com/ismoilovdevml/rmx) - Rewritten alternative rm in Rust
 * [Runeo Smart Terminal](https://github.com/ismoilovdevml/runeo) - Rustda yozilgan smart terminal. OpenAI API-si bilan bo'glangan.
 * [Rust Kernel](https://github.com/ismoilovdevml/rust-os) - Rustda Yozilgan Kernel Rust dasturlash tilida yozilgan Operatsion Tizim
@@ -87,6 +95,7 @@
 * [@murodovazizmurod](https://github.com/murodovazizmurod)
 * [@OgabekDev](https://github.com/OgabekDev)
 * [@orzklv](https://github.com/orzklv)
+* [@otabekswe](https://github.com/otabekswe)
 * [@realtemirov](https://github.com/realtemirov)
 * [@saidafzalkh](https://github.com/saidafzalkh)
 * [@thelissimus](https://github.com/thelissimus)
