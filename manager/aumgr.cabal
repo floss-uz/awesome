@@ -1,0 +1,45 @@
+cabal-version: 3.0
+name:          aumgr
+version:       0.0.1.0
+license:       BSD-3-Clause
+license-file:  LICENSE
+build-type:    Simple
+
+common warnings
+  ghc-options:
+    -Wall -Wextra -Weverything -Wcompat -Wno-implicit-prelude
+    -Wno-unsafe -Wno-missing-safe-haskell-mode
+    -Wno-missing-import-lists -haddock
+
+common defaults
+  default-language:   GHC2021
+  default-extensions:
+    BlockArguments
+    DerivingStrategies
+    UnicodeSyntax
+
+library
+  import:          warnings, defaults
+  exposed-modules:
+    Aumgr
+    Aumgr.Storage
+
+  hs-source-dirs:  src
+  build-depends:
+    , base
+    , brick
+    , esqueleto
+    , persistent
+    , persistent-sqlite
+    , persistent-template
+    , text
+    , time
+    , vty
+
+executable aumgr
+  import:         warnings, defaults
+  main-is:        Main.hs
+  hs-source-dirs: app
+  build-depends:
+    , aumgr
+    , base
