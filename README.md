@@ -60,6 +60,7 @@
 - [dsalgo.uz](https://github.com/otabekswe/dsalgo) - "Data Structure and Algorithms" uchun O'zbek tilidagi va illustratsiyalarga boy bo'lgan qo'llanma.
 - [ops-in-maang](https://github.com/ismoilovdevml/ops-in-maang) - MAANG dagi Ops ga oid ma'lumotlar to'plami.
 - [dotnet-docs](https://github.com/uzdotnet/docs) - .NET dokumentatsiyasi o'zbek tilida.
+- [howdnsworks-uz](https://github.com/rarebek/howdnsworks-uz) - DNS qanday ishlashini o'rganing (tarjima)
 
 
 ### Vositalar
@@ -107,6 +108,7 @@
 - [@OgabekDev](https://github.com/OgabekDev)
 - [@realtemirov](https://github.com/realtemirov)
 - [@rahmonov](https://github.com/rahmonov)
+- [@rarebek](https://github.com/rarebek)
 - [@saidafzalkh](https://github.com/saidafzalkh)
 - [@thelissimus](https://github.com/thelissimus)
 - [@uwussimo](https://github.com/uwussimo)
