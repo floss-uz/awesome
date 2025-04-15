@@ -43,9 +43,5 @@
         website = pkgs.callPackage ./website {inherit pkgs;};
         default = pkgs.callPackage ./manager {inherit pkgs fenix;};
       };
-    })
-    // {
-      # Overlay module
-      nixosModules.bot = import ./module.nix self;
-    };
+    });
 }
