@@ -12,7 +12,7 @@ authors = ["Sokhibjon Orzikulov <sakhib@orzklv.uz>"]
 [dependencies]
 chrono = { version = "0.4.40", features = ["serde"] }
 clap = { version = "4.5.35", features = ["derive", "string"] }
-cursive = { version = "0.21.1", features = ["crossterm-backend", "toml"] }
+ratatui = "0.29.0"
 serde = { version = "1", features = ["derive"] }
 serde_json = { version = "1" }
 

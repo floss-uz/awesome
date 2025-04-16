@@ -1,76 +1,93 @@
-use cursive::traits::*;
-use cursive::views::{Button, Dialog, DummyView, EditView, LinearLayout, SelectView};
-use cursive::Cursive;
+pub mod app;
+pub mod ui;
 
-pub fn tui() {
-    let mut siv = cursive::default();
+use app::{App, CurrentScreen, CurrentlyEditing};
+use ratatui::{
+    backend::Backend,
+    crossterm::event::{self, Event, KeyCode, KeyEventKind},
+    Terminal,
+};
+use std::io;
+use ui::ui;
 
-    let select = SelectView::<String>::new()
-        .on_submit(on_submit)
-        .with_name("select")
-        .fixed_size((10, 5));
-    let buttons = LinearLayout::vertical()
-        .child(Button::new("Add new", add_name))
-        .child(Button::new("Delete", delete_name))
-        .child(DummyView)
-        .child(Button::new("Quit", Cursive::quit));
+pub fn run_app<B: Backend>(terminal: &mut Terminal<B>, app: &mut App) -> io::Result<bool> {
+    loop {
+        terminal.draw(|f| ui(f, app))?;
 
-    siv.add_layer(
-        Dialog::around(
-            LinearLayout::horizontal()
-                .child(select)
-                .child(DummyView)
-                .child(buttons),
-        )
-        .title("Select a profile"),
-    );
-
-    siv.run();
-}
-
-fn add_name(s: &mut Cursive) {
-    fn ok(s: &mut Cursive, name: &str) {
-        s.call_on_name("select", |view: &mut SelectView<String>| {
-            view.add_item_str(name)
-        });
-        s.pop_layer();
-    }
-
-    s.add_layer(
-        Dialog::around(
-            EditView::new()
-                .on_submit(ok)
-                .with_name("name")
-                .fixed_width(10),
-        )
-        .title("Enter a new name")
-        .button("Ok", |s| {
-            let name = s
-                .call_on_name("name", |view: &mut EditView| view.get_content())
-                .unwrap();
-            ok(s, &name);
-        })
-        .button("Cancel", |s| {
-            s.pop_layer();
-        }),
-    );
-}
-
-fn delete_name(s: &mut Cursive) {
-    let mut select = s.find_name::<SelectView<String>>("select").unwrap();
-    match select.selected_id() {
-        None => s.add_layer(Dialog::info("No name to remove")),
-        Some(focus) => {
-            select.remove_item(focus);
+        if let Event::Key(key) = event::read()? {
+            if key.kind == event::KeyEventKind::Release {
+                // Skip events that are not KeyEventKind::Press
+                continue;
+            }
+            match app.current_screen {
+                CurrentScreen::Main => match key.code {
+                    KeyCode::Char('e') => {
+                        app.current_screen = CurrentScreen::Editing;
+                        app.currently_editing = Some(CurrentlyEditing::Key);
+                    }
+                    KeyCode::Char('q') => {
+                        app.current_screen = CurrentScreen::Exiting;
+                    }
+                    _ => {}
+                },
+                CurrentScreen::Exiting => match key.code {
+                    KeyCode::Char('y') => {
+                        return Ok(true);
+                    }
+                    KeyCode::Char('n') | KeyCode::Char('q') => {
+                        return Ok(false);
+                    }
+                    _ => {}
+                },
+                CurrentScreen::Editing if key.kind == KeyEventKind::Press => match key.code {
+                    KeyCode::Enter => {
+                        if let Some(editing) = &app.currently_editing {
+                            match editing {
+                                CurrentlyEditing::Key => {
+                                    app.currently_editing = Some(CurrentlyEditing::Value);
+                                }
+                                CurrentlyEditing::Value => {
+                                    app.save_key_value();
+                                    app.current_screen = CurrentScreen::Main;
+                                }
+                            }
+                        }
+                    }
+                    KeyCode::Backspace => {
+                        if let Some(editing) = &app.currently_editing {
+                            match editing {
+                                CurrentlyEditing::Key => {
+                                    app.key_input.pop();
+                                }
+                                CurrentlyEditing::Value => {
+                                    app.value_input.pop();
+                                }
+                            }
+                        }
+                    }
+                    KeyCode::Esc => {
+                        app.current_screen = CurrentScreen::Main;
+                        app.currently_editing = None;
+                    }
+                    KeyCode::Tab => {
+                        app.toggle_editing();
+                    }
+                    KeyCode::Char(value) => {
+                        if let Some(editing) = &app.currently_editing {
+                            match editing {
+                                CurrentlyEditing::Key => {
+                                    app.key_input.push(value);
+                                }
+                                CurrentlyEditing::Value => {
+                                    app.value_input.push(value);
+                                }
+                            }
+                        }
+                    }
+                    _ => {}
+                },
+                _ => {}
+            }
         }
     }
-}
-
-fn on_submit(s: &mut Cursive, name: &str) {
-    s.pop_layer();
-    s.add_layer(
-        Dialog::text(format!("Name: {}\nAwesome: yes", name))
-            .title(format!("{}'s info", name))
-            .button("Quit", Cursive::quit),
-    );
 }

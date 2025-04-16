@@ -1,27 +1,29 @@
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
-enum PossibleOwner {
+#[derive(Debug, Clone, Serialize, Deserialize, Default)]
+pub enum PossibleOwner {
+    #[default]
     Registered(Profile),
     Unknown(String),
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
-struct Repository {
+#[derive(Debug, Clone, Serialize, Deserialize, Default)]
+pub struct Repository {
     name: String,
     description: String,
     owner: PossibleOwner,
     link: String,
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
-enum ProfileCategory {
+#[derive(Debug, Clone, Serialize, Deserialize, Default)]
+pub enum ProfileCategory {
+    #[default]
     User,
     Organization,
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
-struct Profile {
+#[derive(Debug, Clone, Serialize, Deserialize, Default)]
+pub struct Profile {
     name: String,
     description: String,
     category: ProfileCategory,
@@ -29,8 +31,9 @@ struct Profile {
     link: String,
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
-enum Data {
+#[derive(Debug, Clone, Serialize, Deserialize, Default)]
+pub enum Data {
+    #[default]
     Repository(Repository),
     Profile(Profile),
 }
