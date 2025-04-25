@@ -35,7 +35,6 @@
 - [UzbekLang](https://github.com/urverse-uz/UzbekLang) - Kotlinda yozilgan o'zbek dasturlash tili.
 - [skibidi](https://github.com/dxtym/skibidi) - "Z" avlodi uchun dasturlash tili.
 
-
 ### DevOps
 - [devops-tools](https://github.com/ismoilovdevml/devops-tools) - Ismoilovdevml ishlatgan va yozgan devops dasturlar.
 - [docker-dashboard](https://github.com/AbduazizZiyodov/docker-dashboard) - Docker bilan ishlash uchun oson va yengil grafik interfeys.
@@ -74,7 +73,7 @@
 - [nanoexpress](https://github.com/nanoexpress/nanoexpress) - Node.js uchun yozilgan professional backend freymvorki.
 - [Tigernet](https://github.com/tigernetframework/Tigernet) - .NET uchun yozilgan minimalistik, Open-Source va kross-platformlik SSR freymvork.
 - [Flask-Authlib](https://github.com/AbduazizZiyodov/flask-authlib) - Flask framework uchun autentifikatsiya kutubxonasi.
-
+- [chalpak](https://github.com/mehmonov/chalpak) - Python uchun yozilgan kichk web freymvork.
 
 ### Boshqa
 - [Runeo Smart Terminal](https://github.com/ismoilovdevml/runeo) - Rust dasturlash tilida yozilgan OpenAI API-si bilan bo'glangan smart terminal.
@@ -86,7 +85,9 @@
 - [Blockchain](https://github.com/ismoilovdevml/blockchain) - Rust Dasturlash tilida yozilgan Blockchain.
 - [Rust Kernel](https://github.com/ismoilovdevml/rust-os) - Rust dasturlash tilida yozilgan kernel.
 - [rustix-vcs](https://github.com/knoxydev/rustix-vcs) - Rust dasturlash tilida yozilgan VCS.
-- [Doppi-Detection](https://github.com/zero-suger/Doppi-Detection-YOLO_v8) - Rasmda milliy doppimiz borligini aniqlash. 
+- [Doppi-Detection](https://github.com/zero-suger/Doppi-Detection-YOLO_v8) - Rasmda milliy doppimiz borligini aniqlash.
+- [gmx](https://github.com/biodasturchi/gmx) - Gromacs yordamida molekular modellashtirish.
+
 
 ## Dasturchilar
 - [@azimjohn](https://github.com/azimjohn)
@@ -103,6 +104,7 @@
 - [@murodovazizmurod](https://github.com/murodovazizmurod)
 - [@mmnvb](https://github.com/mmnvb)
 - [@MahdiyDev](https://github.com/MahdiyDev)
+- [@mehmonov](https://github.com/mehmonov)
 - [@otabekswe](https://github.com/otabekswe)
 - [@orzklv](https://github.com/orzklv)
 - [@OgabekDev](https://github.com/OgabekDev)
@@ -116,6 +118,7 @@
 - [@zero-suger](https://github.com/zero-suger)
 
 ## Tashkilotlar
+- [biodasturchi](https://github.com/biodasturchi)
 - [Deno Land | O'zbekiston](https://github.com/denolanduz)
 - [nanoexpress](https://github.com/nanoexpress)
 - [Odya-LLC](https://github.com/Odya-LLC)
