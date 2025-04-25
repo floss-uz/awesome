@@ -58,6 +58,7 @@ const copyOwner = () => {
   <div class="
     flex gap-3 items-start border rounded-lg px-5 relative dark:hover:border-gray-700
     dark:border-gray-800 light:hover:border-gray-500 py-8
+    break-all
     " @click="toggleExpand">
     <!-- avatar -->
     <a :href="props.repo.owner.html_url" target="_blank" class="
@@ -70,8 +71,8 @@ const copyOwner = () => {
 
     <!-- Stars -->
     <span class="
-      absolute rounded-lg bg-blue-100 z-30 flex items-center gap-1 px-2 size-min top-5 left-4
-      dark:text-gray-800 dark:bg-blue-400 hover:cursor-default
+      absolute rounded-lg bg-blue-100 z-30 flex items-center gap-1 px-2 top-5 left-4
+      dark:text-gray-800 dark:bg-blue-400 hover:cursor-default h-5
       ">
       <StarIcon class="size-4" />
       <small>{{ props.repo.stargazers_count }}</small>
