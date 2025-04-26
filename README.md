@@ -117,6 +117,7 @@
 - [@uwussimo](https://github.com/uwussimo)
 - [@yetimdasturchi](https://github.com/yetimdasturchi)
 - [@zero-suger](https://github.com/zero-suger)
+- [@jamshid-elmurodov](https://github.com/jamshid-elmurodov)
 
 ## Tashkilotlar
 - [biodasturchi](https://github.com/biodasturchi)
