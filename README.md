@@ -63,10 +63,11 @@
 
 
 ### Vositalar
-- [JPRQ](https://github.com/azimjohn/jprq) - Lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun bepul va ochiq vosita.
+- [JPRQ](https://github.com/azimjohn/jprq) - Lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun ochiq vosita.
 - [Portier-ADPS](https://github.com/fromgodd/portier-adps) - Python da yozilgan modulyar mikroservislar uchun asinxron port skanner.
 - [RMX](https://github.com/ismoilovdevml/rmx) - Rust dasturlash tilida yozilgan rm alternativi.
 - [Makudaun!](https://github.com/dark-voyage/makudaun) - Rust dasturlash tilida yozilgan Markdown dan HTML ga o'giruvchi vosita.
+- [Tarmoqchi](https://github.com/jamshid-elmurodov/tarmoqchi) - Java va Go da yozilgan lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun bepul vosita.
 
 
 ### Web
@@ -116,6 +117,7 @@
 - [@uwussimo](https://github.com/uwussimo)
 - [@yetimdasturchi](https://github.com/yetimdasturchi)
 - [@zero-suger](https://github.com/zero-suger)
+- [@jamshid-elmurodov](https://github.com/jamshid-elmurodov)
 
 ## Tashkilotlar
 - [biodasturchi](https://github.com/biodasturchi)
