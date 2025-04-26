@@ -78,7 +78,7 @@
 
 
 ### Bot
-- [ReminderBot](https://github.com/Xayrulloh/ReminderBot) - Namoz vaqtlarini eslatib turuvchi Telegram bot.
+- [ReminderBot](https://github.com/Xayrulloh/ReminderBot) - TypeScript dasturlash tilida yozilgan namoz vaqtlarini eslatib turuvchi Telegram bot.
 
 ### Boshqa
 - [Runeo Smart Terminal](https://github.com/ismoilovdevml/runeo) - Rust dasturlash tilida yozilgan OpenAI API-si bilan bo'glangan smart terminal.
