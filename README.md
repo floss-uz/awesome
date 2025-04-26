@@ -76,6 +76,10 @@
 - [Flask-Authlib](https://github.com/AbduazizZiyodov/flask-authlib) - Flask framework uchun autentifikatsiya kutubxonasi.
 - [chalpak](https://github.com/mehmonov/chalpak) - Python uchun yozilgan kichk web freymvork.
 
+
+### Bot
+- [ReminderBot](https://github.com/Xayrulloh/ReminderBot) - Namoz vaqtlarini eslatib turuvchi Telegram bot.
+
 ### Boshqa
 - [Runeo Smart Terminal](https://github.com/ismoilovdevml/runeo) - Rust dasturlash tilida yozilgan OpenAI API-si bilan bo'glangan smart terminal.
 - [MusicCLI](https://github.com/otabekswe/MusicCLI) - Terminal foydalanuvchilar uchun yaratilgan qulay musiqa yuklash dasturi.
@@ -118,6 +122,7 @@
 - [@yetimdasturchi](https://github.com/yetimdasturchi)
 - [@zero-suger](https://github.com/zero-suger)
 - [@jamshid-elmurodov](https://github.com/jamshid-elmurodov)
+- [@Xayrulloh](https://github.com/Xayrulloh)
 
 ## Tashkilotlar
 - [biodasturchi](https://github.com/biodasturchi)
