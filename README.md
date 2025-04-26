@@ -67,7 +67,7 @@
 - [Portier-ADPS](https://github.com/fromgodd/portier-adps) - Python da yozilgan modulyar mikroservislar uchun asinxron port skanner.
 - [RMX](https://github.com/ismoilovdevml/rmx) - Rust dasturlash tilida yozilgan rm alternativi.
 - [Makudaun!](https://github.com/dark-voyage/makudaun) - Rust dasturlash tilida yozilgan Markdown dan HTML ga o'giruvchi vosita.
-- [Tarmoqchi](https://github.com/jamshid-elmurodov/tarmoqchi) - Java va Go da yozilgan lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun bepul vosita.
+- [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi) - Java va Go da yozilgan lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun bepul vosita.
 
 
 ### Web
