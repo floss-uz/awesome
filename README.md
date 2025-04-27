@@ -77,7 +77,7 @@
 - [chalpak](https://github.com/mehmonov/chalpak) - Python uchun yozilgan kichk web freymvork.
 
 
-### Bot
+### Telegram Botlar
 - [ReminderBot](https://github.com/Xayrulloh/ReminderBot) - TypeScript dasturlash tilida yozilgan namoz vaqtlarini eslatib turuvchi Telegram bot.
 
 ### Boshqa
