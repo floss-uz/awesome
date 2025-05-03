@@ -17,6 +17,18 @@
 </p>
 
 ## Loyihalar
+- [API](#api)
+- [Dasturlash tillari](#dasturlash-tillari)
+- [DevOps](#devops)
+- [O'zbek tili](#ozbek-tili)
+- [Ta'lim](#talim)
+- [Vositalar](#vositalar)
+- [Web](#web)
+- [Telegram Botlar](#telegram-botlar)
+- [Terminal](#terminal)
+- [Boshqa](#boshqa)
+
+---
 
 ### API
 - [payme-pkg](https://github.com/PayTechUz/payme-pkg) - Python da yozilgan Payme bilan [Merchant] va [Subscribe] API integratsiyasi.
@@ -46,7 +58,6 @@
 
 ### O'zbek tili
 - [Korrektor Rust Lib](https://git.kolyma.uz/korrektor/korrektor-rs) - O'zbek tiliga oid Rust da yozilgan har xil yordamchi vositalar to'plami.
-- [pronouncer-telebot](https://github.com/rahmonov/pronouncer-telebot) - Berilgan so'zlarni ovozli tarzda aytib beradigan Go dasturlash tilida yozilgan telegram bot.
 - [TurkicASR](https://github.com/IS2AI/TurkicASR) - Nutqni avtomatik aniqlash (ASR) modeli
 - [izohli_lugat](https://github.com/jasur-2902/izohli_lugat) - O'zbek tilining izohli lug'at mobil ilovasi
 - [fitrat](https://github.com/tahrirchi/fitrat) - O'zbek tili uchun NLP kutubxonasi
@@ -69,7 +80,6 @@
 - [Makudaun!](https://github.com/dark-voyage/makudaun) - Rust dasturlash tilida yozilgan Markdown dan HTML ga o'giruvchi vosita.
 - [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi) - Java va Go da yozilgan lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun bepul vosita.
 
-
 ### Web
 - [nanoexpress](https://github.com/nanoexpress/nanoexpress) - Node.js uchun yozilgan professional backend freymvorki.
 - [Tigernet](https://github.com/tigernetframework/Tigernet) - .NET uchun yozilgan minimalistik, Open-Source va kross-platformlik SSR freymvork.
@@ -79,11 +89,14 @@
 
 ### Telegram Botlar
 - [ReminderBot](https://github.com/Xayrulloh/ReminderBot) - TypeScript dasturlash tilida yozilgan namoz vaqtlarini eslatib turuvchi Telegram bot.
+- [pronouncer-telebot](https://github.com/rahmonov/pronouncer-telebot) - Berilgan so'zlarni ovozli tarzda aytib beradigan Go dasturlash tilida yozilgan telegram bot.
 
-### Boshqa
+### Terminal
 - [Runeo Smart Terminal](https://github.com/ismoilovdevml/runeo) - Rust dasturlash tilida yozilgan OpenAI API-si bilan bo'glangan smart terminal.
 - [MusicCLI](https://github.com/otabekswe/MusicCLI) - Terminal foydalanuvchilar uchun yaratilgan qulay musiqa yuklash dasturi.
 - [Terminal News](https://github.com/knoxydev/terminal-news) - Terminaldan yangiliklarni o'qish uchun dastur.
+
+### Boshqa
 - [Izharul Ifadat](https://github.com/OgabekDev/IzharulIfadat) - Islom dini 10 bobini tushunish uchun foydalanuvchilarga audio darslar va duo o'qish uchun mobil ilova.
 - [Whitty](https://github.com/uwussimo/whitty) - Kollej talabalarining o'zaro aloqalarini oshirish uchun platforma.
 - [Tezzy](https://github.com/uwussimo/tezzy) - Foydalanuvchilar orasida "buzzy" nomli kichik habarlarni tezda oshirish imkoniyatini beruvchi sotsial tarmoq.
