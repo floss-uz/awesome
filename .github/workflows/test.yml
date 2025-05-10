@@ -31,6 +31,3 @@ jobs:
 
       - name: Build project with Nix
         run: nix build
-
-      # - name: Run cargo tests
-      # run: nix develop --command -- cargo test

@@ -1,2 +1,5 @@
 # Nix outputs
 result
+
+# Direnv
+.direnv
