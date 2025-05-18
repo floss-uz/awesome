@@ -19,13 +19,10 @@ concurrency:
 
 jobs:
   deploy:
-    runs-on: macos-latest
+    runs-on: self-hosted
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
-
-      - name: Install Nix on da machine
-        uses: DeterminateSystems/nix-installer-action@main
 
       - name: Build website
         continue-on-error: true
