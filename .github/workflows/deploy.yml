@@ -26,7 +26,7 @@ jobs:
 
       - name: Build website
         continue-on-error: true
-        run: nix build .#website
+        run: nix build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
