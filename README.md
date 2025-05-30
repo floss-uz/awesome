@@ -46,6 +46,7 @@
 - [Stubler](https://github.com/fromgodd/stubler-lang) - Assembler ga o'xshash dasturlash til.
 - [UzbekLang](https://github.com/urverse-uz/UzbekLang) - Kotlinda yozilgan o'zbek dasturlash tili.
 - [skibidi](https://github.com/dxtym/skibidi) - "Z" avlodi uchun dasturlash tili.
+- [bug-lang](https://github.com/UzStack/bug-lang) - OOPni qo'llab-quvvatlaydigan dasturlashtili.
 
 ### DevOps
 - [devops-tools](https://github.com/ismoilovdevml/devops-tools) - Ismoilovdevml ishlatgan va yozgan devops dasturlar.
@@ -64,6 +65,7 @@
 - [lotin-kirill](https://github.com/diyorbek/lotin-kirill) - O'zbek tili uchun transliterator (Kirill -> Lotin)
 - [syllabize-uz](https://github.com/diyorbek/syllabize-uz) - O'zbekcha so'zlarni bo'g'inlarga bo'lish kutubxonasi.
 - [uzbek-sign-language](https://github.com/Mrkomiljon/uzbek-sign-language) - O'zbek imo-ishora tilini "komputer korish" orqali aniqlash vositasi.
+- [uzbek-badwords](https://github.com/milliytech/uzbek-badwords) - Yomon so'zlar arxivi.
 
 ### Ta'lim 
 - [devops-journey](https://github.com/ismoilovdevml/devops-journey) - DevOps Journey bu open source ta'lim platformasidir.
@@ -140,6 +142,7 @@
 ## Tashkilotlar
 - [biodasturchi](https://github.com/biodasturchi)
 - [Deno Land | O'zbekiston](https://github.com/denolanduz)
+- [milliytech](https://github.com/milliytech)
 - [nanoexpress](https://github.com/nanoexpress)
 - [Odya-LLC](https://github.com/Odya-LLC)
 - [Osmon Dasturlash Tili](https://github.com/osmon-lang)
@@ -149,3 +152,4 @@
 - [Tigernet](https://github.com/tigernetframework)
 - [uzdotnet](https://github.com/uzdotnet)
 - [UZINFOCOM](https://github.com/uzinfocom-org)
+- [UzStack](https://github.com/UzStack)
