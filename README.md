@@ -55,7 +55,7 @@
 - [cluster-service](https://github.com/akhmadiy/cluster-service) - Nodejs da yozilgan oddiy cluster servisi.
 - [DNS Server](https://github.com/ismoilovdevml/dns-server) - Rust Dasturlash tilida yozilgan DNS Server.
 - [RustStrom](https://github.com/ismoilovdevml/RustStrom) - Rust dasturlash tilida yozilgan samarali load balancer.
-
+- [IPTools](https://github.com/S1lentium/IPTools) - IPv4 va IPv6 bilan ishlash uchun PHP kutubxonasi.
 
 ### O'zbek tili
 - [Korrektor Rust Lib](https://git.kolyma.uz/korrektor/korrektor-rs) - O'zbek tiliga oid Rust da yozilgan har xil yordamchi vositalar to'plami.
@@ -74,7 +74,7 @@
 - [ops-in-maang](https://github.com/ismoilovdevml/ops-in-maang) - MAANG dagi Ops ga oid ma'lumotlar to'plami.
 - [dotnet-docs](https://github.com/uzdotnet/docs) - .NET dokumentatsiyasi o'zbek tilida.
 - [howdnsworks-uz](https://github.com/rarebek/howdnsworks-uz) - DNS qanday ishlashini o'rganing (tarjima)
-
+- [AlgoDS](https://github.com/sherxon/AlgoDS) - Algoritmlar va ma'lumot tuzilmalarini Javadagi yechimlar to'plami.
 
 ### Vositalar
 - [JPRQ](https://github.com/azimjohn/jprq) - Lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun ochiq vosita.
@@ -134,6 +134,8 @@
 - [@rahmonov](https://github.com/rahmonov)
 - [@rarebek](https://github.com/rarebek)
 - [@saidafzalkh](https://github.com/saidafzalkh)
+- [@S1lentium](https://github.com/S1lentium)
+- [@sherxon](https://github.com/sherxon)
 - [@thelissimus](https://github.com/thelissimus)
 - [@uwussimo](https://github.com/uwussimo)
 - [@yetimdasturchi](https://github.com/yetimdasturchi)
