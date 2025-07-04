@@ -88,7 +88,8 @@
 - [Tigernet](https://github.com/tigernetframework/Tigernet) - .NET uchun yozilgan minimalistik, Open-Source va kross-platformlik SSR freymvork.
 - [Flask-Authlib](https://github.com/AbduazizZiyodov/flask-authlib) - Flask framework uchun autentifikatsiya kutubxonasi.
 - [chalpak](https://github.com/mehmonov/chalpak) - Python uchun yozilgan kichk web freymvork.
-
+- [encrypted-shared-preferences](https://github.com/xaldarof/encrypted-shared-preferences) - Flutter uchun xavfsiz kalit-qiymat (key-value) kutubxonasi.
+- [cserve](https://github.com/Samandar-Komilov/cserve) - C tilida yozilgan Epoll asosidagi web server.
 
 ### Telegram Botlar
 - [ReminderBot](https://github.com/Xayrulloh/ReminderBot) - TypeScript dasturlash tilida yozilgan namoz vaqtlarini eslatib turuvchi Telegram bot.
@@ -108,7 +109,7 @@
 - [rustix-vcs](https://github.com/knoxydev/rustix-vcs) - Rust dasturlash tilida yozilgan VCS.
 - [Doppi-Detection](https://github.com/zero-suger/Doppi-Detection-YOLO_v8) - Rasmda milliy doppimiz borligini aniqlash.
 - [gmx](https://github.com/biodasturchi/gmx) - Gromacs yordamida molekular modellashtirish.
-
+- [tuynuk-mobile](https://github.com/Tuynuk/tuynuk-mobile) - Xavfsiz fayl jo'natmalari uchun mobil ilova.
 
 ## Dasturchilar
 - [@azimjohn](https://github.com/azimjohn)
@@ -121,6 +122,7 @@
 - [@ismoilovdevml](https://github.com/ismoilovdevml)
 - [@jasur-2902](https://github.com/jasur-2902)
 - [@knoxydev](https://github.com/knoxydev)
+- [@Samandar-Komilov](https://github.com/Samandar-Komilov)
 - [@Mrkomiljon](https://github.com/Mrkomiljon)
 - [@murodovazizmurod](https://github.com/murodovazizmurod)
 - [@mmnvb](https://github.com/mmnvb)
@@ -142,6 +144,7 @@
 - [@zero-suger](https://github.com/zero-suger)
 - [@jamshid-elmurodov](https://github.com/jamshid-elmurodov)
 - [@Xayrulloh](https://github.com/Xayrulloh)
+- [@xaldarof](https://github.com/xaldarof)
 
 ## Tashkilotlar
 - [biodasturchi](https://github.com/biodasturchi)
