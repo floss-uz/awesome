@@ -66,6 +66,7 @@
 - [syllabize-uz](https://github.com/diyorbek/syllabize-uz) - O'zbekcha so'zlarni bo'g'inlarga bo'lish kutubxonasi.
 - [uzbek-sign-language](https://github.com/Mrkomiljon/uzbek-sign-language) - O'zbek imo-ishora tilini "komputer korish" orqali aniqlash vositasi.
 - [uzbek-badwords](https://github.com/milliytech/uzbek-badwords) - Yomon so'zlar arxivi.
+- [Uzbek-language](https://github.com/QuvonchbekBobojonov/Uzbek-language) - Imlo xatolarini topish va lotin yozuvdan kirill yozuviga tarjima qilish Pip paketi.
 
 ### Ta'lim 
 - [devops-journey](https://github.com/ismoilovdevml/devops-journey) - DevOps Journey bu open source ta'lim platformasidir.
@@ -128,6 +129,7 @@
 - [@otabekswe](https://github.com/otabekswe)
 - [@orzklv](https://github.com/orzklv)
 - [@OgabekDev](https://github.com/OgabekDev)
+- [@QuvonchbekBobojonov](https://github.com/QuvonchbekBobojonov)
 - [@realtemirov](https://github.com/realtemirov)
 - [@rahmonov](https://github.com/rahmonov)
 - [@rarebek](https://github.com/rarebek)
