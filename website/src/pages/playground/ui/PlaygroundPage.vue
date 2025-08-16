@@ -27,12 +27,20 @@
         {{ btn }}
       </AppButton>
     </div>
+
+    <AppCardBase class="some-card">
+      <div>
+        <p>Hello world</p>
+      </div>
+    </AppCardBase>
+
   </div>
 </template>
 
 <script setup lang="ts">
 import AppButton from "@/shared/ui/button";
 import { Severity } from "@/shared/model/ui";
+import AppCardBase from "@/shared/ui/card";
 </script>
 
 <style scoped lang="scss">
@@ -43,6 +51,11 @@ import { Severity } from "@/shared/model/ui";
     display: flex;
     align-items: center;
     gap: $spacing-xs;
+  }
+
+  .some-card {
+    width: 300px;
+    margin-bottom: 80px;
   }
 }
 </style>

@@ -2,24 +2,31 @@
   <button :disabled="disabled" :class="[
     'btn',
     `btn-${severity}`,
-    { outlined }
+    { outlined },
+    `btn-${size}`
   ]">
-    <slot />
+    <slot>
+      {{ label }}
+    </slot>
   </button>
 </template>
 
 <script setup lang="ts">
 import { Severity } from '@/shared/model/ui';
+import { Size } from '@/shared/model/ui';
 
 interface Props {
+  label?: string;
   disabled?: boolean;
   severity?: Severity;
   outlined?: boolean;
+  size?: Size;
 }
 
 withDefaults(defineProps<Props>(), {
   disabled: false,
-  severity: Severity.PRIMARY
+  severity: Severity.PRIMARY,
+  size: Size.MEDIUM
 })
 </script>
 
@@ -37,6 +44,16 @@ button {
   &:disabled {
     cursor: not-allowed;
     opacity: 0.6;
+  }
+
+  &.btn-small {
+    font-size: $font-size-sm;
+    padding: $spacing-xxs $spacing-md;
+  }
+
+  &.btn-big {
+    font-size: $font-size-lg;
+    padding: $spacing-sm $spacing-xl;
   }
 }
 
@@ -68,7 +85,7 @@ button {
       }
 
       &:not(:disabled):active {
-        background-color: rgba($base, 0.25);
+        background-color: rgba($base, 0.3);
       }
     }
   }
