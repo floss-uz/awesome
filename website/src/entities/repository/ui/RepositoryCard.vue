@@ -1,33 +1,35 @@
 <template>
-  <AppCardBase>
+  <AppCardBase width="300px" height="400px">
     <div class="repository-card">
       <div class="repository-card__header">
         <a :href="authorUrl">
           <AppAvatar :src="img" :alt="`img-${author}`" />
         </a>
-        <!-- <AppButton :severity="Severity.SECONDARY" label="Save" outlined small class="save-btn">
+        <AppButton :severity="Severity.SECONDARY" label="Save" outlined small class="save-btn" :size="Size.SMALL" icon-only>
           <IconBookmark />
-          Save
-        </AppButton> -->
+        </AppButton>
       </div>
 
       <div class="repository-card__content">
         <div class="repository-card__subheader">
           <a :href="authorUrl" target="_blank">
-            <b>{{ truncateText(author.toLocaleLowerCase(), 20) }}</b>
+            <b>{{ truncateText(author.toLocaleLowerCase(), 12) }}</b>
           </a>
           <small title="last updated">{{ timeAgo(updatedAt) }}</small>
         </div>
-        <h2>{{ name }}</h2>
-        <small>{{ truncateText(description, 180) }}</small>
+        <a :href="repoUrl" target="_blank">
+          <h2>{{ truncateText(name, 20) }}</h2>
+        </a>
+        <small>{{ truncateText(description, 150) }}</small>
       </div>
 
       <div class="repository-card__footer">
         <div class="repository-card__bottom-info">
           <b>{{ stars }} stars</b>
           <small v-if="language">{{ language }}</small>
+          <small v-else>No language</small>
         </div>
-        <a :href="repoUrl" target="_blank">
+        <a v-if="!hideActionButton" :href="repoUrl" target="_blank">
           <AppButton>Explore</AppButton>
         </a>
       </div>
@@ -39,8 +41,9 @@
 import AppCardBase from '@/shared/ui/card/AppCardBase.vue';
 import AppAvatar from '@/shared/ui/avatar';
 import AppButton from '@/shared/ui/button';
-// import IconBookmark from '@/shared/ui/icons/IconBookmark.vue';
-// import { Severity } from '@/shared/model/ui';
+import IconBookmark from '@/shared/ui/icons/IconBookmark.vue';
+import { Severity } from '@/shared/model/ui';
+import { Size } from '@/shared/model/ui';
 
 interface Props {
   author: string;
@@ -52,10 +55,12 @@ interface Props {
   stars: number;
   language?: string | null;
   updatedAt: string;
+  hideActionButton?: boolean;
 }
 
 withDefaults(defineProps<Props>(), {
-  description: ''
+  description: '',
+  hideActionButton: false,
 })
 
 const timeAgo = (dateString: string): string => {
@@ -89,13 +94,18 @@ const truncateText = (text: string | null, maxLength: number): string => {
 
 <style scoped lang="scss">
 .repository-card {
-  width: 280px;
-  aspect-ratio: 4/5;
+  width: 100%;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: $spacing-lg;
+
+  &:hover .save-btn {
+    opacity: 1;
+    transition: opacity $transition-base;
+  }
 
   h2 {
     margin-bottom: 0;
@@ -107,6 +117,7 @@ const truncateText = (text: string | null, maxLength: number): string => {
     align-items: flex-start;
 
     .save-btn {
+      opacity: 0;
       display: flex;
       align-items: center;
       gap: $spacing-xs;

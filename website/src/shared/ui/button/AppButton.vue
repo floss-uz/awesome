@@ -3,7 +3,8 @@
     'btn',
     `btn-${severity}`,
     { outlined },
-    `btn-${size}`
+    `btn-${size}`,
+    { 'icon-only': iconOnly }
   ]">
     <slot>
       {{ label }}
@@ -21,12 +22,14 @@ interface Props {
   severity?: Severity;
   outlined?: boolean;
   size?: Size;
+  iconOnly?: boolean;
 }
 
 withDefaults(defineProps<Props>(), {
   disabled: false,
   severity: Severity.PRIMARY,
-  size: Size.MEDIUM
+  size: Size.MEDIUM,
+  iconOnly: false,
 })
 </script>
 
@@ -46,14 +49,28 @@ button {
     opacity: 0.6;
   }
 
+  // normal
+  &.icon-only {
+    border-radius: $border-radius-full;
+    padding: $spacing-xs;
+  }
+
   &.btn-small {
     font-size: $font-size-sm;
     padding: $spacing-xxs $spacing-md;
+
+    &.icon-only {
+      padding: $spacing-xxs;
+    }
   }
 
   &.btn-big {
     font-size: $font-size-lg;
     padding: $spacing-sm $spacing-xl;
+
+    &.icon-only {
+      padding: $spacing-sm;
+    }
   }
 }
 
