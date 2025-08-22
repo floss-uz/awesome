@@ -9,22 +9,22 @@
     import nixpkgs {overlays = [];},
   ...
 }: let
+  # Manifest data
   manifest = pkgs.lib.importJSON ./package.json;
 
-  exec = pkgs.writeShellScript "${manifest.name}-start.sh" ''
-    # Change working directory to script
-    cd "$(dirname "$0")/../lib"
-
-    ${pkgs.lib.getExe pkgs.nodejs} ./server.js
-  '';
+  # All source codes
+  source = ./.;
 in
   # pkgs.stdenv.mkDerivation {
-  pkgs.buildNpmPackage {
+  pkgs.stdenv.mkDerivation {
     pname = manifest.name;
     version = manifest.version;
 
-    src = ./.;
-    npmDepsHash = "sha256-lh+rANtuft6fGSAn56D4VCcr8pfhVL/s1Hw4rHpXNSo=";
+    src = source;
+
+    buildPhase = ''
+      pnpm build
+    '';
 
     installPhase = ''
       # Copy all content
@@ -34,8 +34,7 @@ in
     nativeBuildInputs = with pkgs; [
       # Typescript
       nodejs
-      pnpm
-      corepack
+      pnpm.configHook
 
       # Hail the Nix
       nixd
@@ -47,6 +46,13 @@ in
       openssl
       vips
     ];
+
+    pnpmDeps = pkgs.pnpm.fetchDeps {
+      pname = manifest.name;
+      version = manifest.version;
+      src = source;
+      hash = "sha256-q/yLT602liKboo1KYwkzhdWe61SLo/MEoLmrE3xvaAo=";
+    };
 
     meta = with pkgs.lib; {
       homepage = "https://awesome.floss.uz";
