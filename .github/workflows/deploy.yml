@@ -19,10 +19,13 @@ concurrency:
 
 jobs:
   deploy:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
+
+      - name: Installa determinate nix
+        uses: DeterminateSystems/nix-installer-action@main
 
       - name: Build website
         run: nix build
