@@ -32,14 +32,8 @@ in
     '';
 
     nativeBuildInputs = with pkgs; [
-      # Typescript
       nodejs
       pnpm.configHook
-
-      # Hail the Nix
-      nixd
-      statix
-      alejandra
     ];
 
     buildInputs = with pkgs; [
