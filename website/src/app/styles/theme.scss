@@ -1,0 +1,105 @@
+// Brand
+$color-primary: #363636;
+$color-primary-light: #525252;
+$color-primary-dark: #1f1f1f;
+
+$color-secondary: #9b9b9b;
+$color-secondary-light: #bababa;
+$color-secondary-dark: #4b5563;
+
+// Status / feedback
+$color-success: #10b981;
+$color-success-light: #34d399;
+$color-success-dark: #059669;
+
+$color-warning: #eab308;
+$color-warning-light: #facc15;
+$color-warning-dark: #a16207;
+
+$color-error: #ef4444;
+$color-error-light: #f87171;
+$color-error-dark: #b91c1c;
+
+$color-info: #3b82f6;
+$color-info-light: #60a5fa;
+$color-info-dark: #1d4ed8;
+
+// severity map, manual work need on mutation with types in ui.ts
+$severity-colors: (
+  primary: (base: $color-primary,
+    light: $color-primary-light,
+    dark: $color-primary-dark ),
+  secondary: (base: $color-secondary,
+    light: $color-secondary-light,
+    dark: $color-secondary-dark,
+  ),
+  success: (base: $color-success,
+    light: $color-success-light,
+    dark: $color-success-dark,
+  ),
+  warning: (base: $color-warning,
+    light: $color-warning-light,
+    dark: $color-warning-dark,
+  ),
+  error: (base: $color-error,
+    light: $color-error-light,
+    dark: $color-error-dark,
+  ),
+  info: (base: $color-info,
+    light: $color-info-light,
+    dark: $color-info-dark,
+  ),
+);
+
+// Neutral surfaces
+$color-surface: #ffffff;
+$color-surface-alt: #f9fafb;
+$color-border: #e5e7eb;
+$color-background: #f3f4f6;
+
+// Text
+$color-text: #111827;
+$color-text-muted: #6b7280;
+$color-text-inverse: #ffffff;
+
+$font-family-base: "Mozilla Text", sans-serif;;
+$font-family-mono: 'Fira Code', monospace;
+
+$font-size-xs: 0.75rem; // 12px
+$font-size-sm: 0.875rem; // 14px
+$font-size-md: 1rem; // 16px
+$font-size-lg: 1.125rem; // 18px
+$font-size-xl: 1.25rem; // 20px
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$line-height-base: 1.5;
+
+$spacing-xxs: 0.25rem; // 4px
+$spacing-xs: 0.5rem; // 8px
+$spacing-sm: 0.75rem; // 12px
+$spacing-md: 1rem; // 16px
+$spacing-lg: 1.5rem; // 24px
+$spacing-xl: 2rem; // 32px
+$spacing-2xl: 3rem; // 48px
+
+$container-max-width: 1200px;
+$grid-gap: $spacing-md;
+
+$border-radius-sm: 1rem; // 8px (chips, small inputs)
+$border-radius-md: 1.5rem; // 16px (default buttons, cards)
+$border-radius-lg: 2rem; // 24px (modals, large containers)
+$border-radius-full: 9999px; // fully rounded (pills, circular avatars)
+
+$border-width: 1px; // default input borders, dividers
+$border-width-md: 2px; // focus states, emphasized components
+$border-width-lg: 4px; // strong emphasis (alerts, active tabs)
+$border-width-none: 0; // when border is explicitly removed
+
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+
+$transition-base: 0.2s ease-in-out;

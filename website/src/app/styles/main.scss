@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-md;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-base;
+  color: $color-text;
+  background-color: $color-background;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// 3. Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-bold;
+  color: $color-text;
+  line-height: calc($line-height-base - 0.25);
+  margin-bottom: $spacing-sm;
+}
+
+h1 {
+  font-size: $font-size-xl * 1.5;
+}
+
+h2 {
+  font-size: $font-size-xl;
+}
+
+h3 {
+  font-size: $font-size-lg; // 18px
+}
+
+h4 {
+  font-size: $font-size-md; // 16px
+}
+
+h5 {
+  font-size: $font-size-sm; // 14px
+}
+
+h6 {
+  font-size: $font-size-xs; // 12px
+}
+
+// 4. Text elements
+p {
+  margin-bottom: $spacing-md;
+}
+
+small {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+  transition: color $transition-base;
+
+  &:hover {
+    color: $color-primary-dark;
+    text-decoration: underline;
+  }
+}
+
+// 5. Lists
+ul,
+ol {
+  margin-bottom: $spacing-md;
+  padding-left: $spacing-lg;
+}
+
+li {
+  margin-bottom: $spacing-xs;
+}
+
+// 6. Images
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// 7. Forms
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  color: inherit;
+}
+
+// 8. Code
+code,
+pre {
+  font-family: $font-family-mono;
+  background: $color-surface-alt;
+  padding: $spacing-xxs $spacing-xs;
+  border-radius: $border-radius-sm;
+}
