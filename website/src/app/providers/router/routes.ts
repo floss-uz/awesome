@@ -1,10 +1,10 @@
-import HomePage from "@/pages/home/HomePage.vue";
+// import HomePage from "@/pages/home/HomePage.vue";
 
 const routes = [
   {
     path: "/",
     name: "home",
-    component: HomePage,
+    // component: HomePage,
     redirect: { name: 'repositories' }
   },
   {
