@@ -45,7 +45,7 @@ in
       pname = manifest.name;
       version = manifest.version;
       src = source;
-      hash = "sha256-q/yLT602liKboo1KYwkzhdWe61SLo/MEoLmrE3xvaAo=";
+      hash = "sha256-DC3N2ZQElu6Tzi6HLbV0z2sES33u2SgQL/lEu/KKhHc=";
     };
 
     meta = with pkgs.lib; {
