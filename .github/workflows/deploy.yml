@@ -24,7 +24,7 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v4
 
-      - name: Install Determinate Nix
+      - name: Installa determinate nix
         uses: DeterminateSystems/nix-installer-action@main
 
       - name: Build website

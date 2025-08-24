@@ -4,27 +4,21 @@ on: [push, pull_request]
 
 jobs:
   test-flake:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
-
-      - name: Install Determinate Nix
-        uses: DeterminateSystems/nix-installer-action@main
 
       - name: Check up flake configuration
         run: nix flake check --all-systems --show-trace
 
   test-project:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
-
-      - name: Install Determinate Nix
-        uses: DeterminateSystems/nix-installer-action@main
 
       - name: Build project with Nix
         run: nix build
