@@ -90,6 +90,8 @@
 - [chalpak](https://github.com/mehmonov/chalpak) - Python uchun yozilgan kichk web freymvork.
 - [encrypted-shared-preferences](https://github.com/xaldarof/encrypted-shared-preferences) - Flutter uchun xavfsiz kalit-qiymat (key-value) kutubxonasi.
 - [cserve](https://github.com/Samandar-Komilov/cserve) - C tilida yozilgan Epoll asosidagi web server.
+- [chaqmoq](https://github.com/chaqmoq/chaqmoq) - Swift tilida yozilgan web freymvork
+- [yaproq](https://github.com/yaproq/yaproq) - Swift tilida yozilgan "templating" tili.
 
 ### Telegram Botlar
 - [ReminderBot](https://github.com/Xayrulloh/ReminderBot) - TypeScript dasturlash tilida yozilgan namoz vaqtlarini eslatib turuvchi Telegram bot.
@@ -136,6 +138,7 @@
 - [@rahmonov](https://github.com/rahmonov)
 - [@rarebek](https://github.com/rarebek)
 - [@saidafzalkh](https://github.com/saidafzalkh)
+- [sukhrobkhakimov](https://github.com/sukhrobkhakimov)
 - [@S1lentium](https://github.com/S1lentium)
 - [@sherxon](https://github.com/sherxon)
 - [@thelissimus](https://github.com/thelissimus)
