@@ -1,5 +1,5 @@
 <template>
-  <AppCardBase width="300px" height="400px">
+  <AppCardBase height="400px">
     <div class="repository-card">
       <div class="repository-card__header">
         <a :href="authorUrl">
@@ -31,12 +31,15 @@
         <a :href="repoUrl" target="_blank">
           <h2>{{ truncateText(name, 20) }}</h2>
         </a>
-        <small>{{ truncateText(description, 150) }}</small>
+        <small>{{ truncateText(description, 120) }}</small>
       </div>
 
       <div class="repository-card__footer">
         <div class="repository-card__bottom-info">
-          <b>{{ stars }} stars</b>
+          <span>
+            <b>{{ truncateStars(stars) }}</b>
+            <small> stars</small>
+          </span>
           <small v-if="language">{{ language }}</small>
           <small v-else>No language</small>
         </div>
@@ -108,13 +111,19 @@ const truncateText = (text: string | null, maxLength: number): string => {
   }
   return text.slice(0, maxLength).trimEnd() + '...';
 }
+
+const truncateStars = (stars: number): string => {
+  if(stars < 1000) return stars.toString();
+  if(stars < 1000000) return `${Math.round(stars / 100) / 10}k`
+  return `${Math.round(stars / 100000) / 10}m`
+}
 </script>
 
 <style scoped lang="scss">
 .repository-card {
-  width: 100%;
   height: 100%;
 
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

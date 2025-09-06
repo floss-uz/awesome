@@ -1,5 +1,5 @@
 <template>
-  <div class="app-card">
+  <div class="app-card" :class="{ 'unstyled': unstyled }">
     <slot></slot>
   </div>
 </template>
@@ -9,12 +9,17 @@ defineProps({
   width: {
     type: String,
     required: false,
-    default: () => 'min-content'
+    default: () => 'auto'
   },
   height: {
     type: String,
     required: false,
     default: () => 'auto'
+  },
+  unstyled: {
+    type: Boolean,
+    required: false,
+    default: () => false
   }
 })
 </script>
@@ -32,7 +37,12 @@ defineProps({
   width: v-bind(width);
   height: v-bind(height);
 
-  &:hover {
+  &.unstyled {
+    padding: 0;
+    box-shadow: none;
+  }
+
+  &:hover:not(.unstyled) {
     box-shadow: $shadow-md;
     transform: translateY(-2px);
   }

@@ -1,12 +1,5 @@
 <template>
   <main>
-    <!-- full screen loader -->
-    <Transition>
-      <div v-show="isLoading" class="loading">
-        <div class="loader"></div>
-      </div>
-    </Transition>
-
     <div class="main-content">
       <!-- navigation -->
       <div class="main-content__header">
@@ -17,8 +10,12 @@
         </div>
       </div>
 
+      <div v-if="isLoading" class="main-content__repos">
+        <RepositoryCardSkeleton v-for="n in 10" :key="n"/>
+      </div>
+
       <!-- main content -->
-      <div v-if="items && items.length" class="main-content__repos">
+      <div v-else-if="items && items.length" class="main-content__repos">
         <RepositoryCard 
           v-for="item in items"
           :key="item.id"
@@ -36,15 +33,16 @@
           @bookmark="handleBookmark"
         />
       </div>
-      <!-- <Transition>
-        <div v-if="!items || !items.length" class="main-content__repos--empty">
-          No items :/
-        </div>
-      </Transition> -->
 
       <div class="main-content__footer">
-        <AppPagination v-if="items.length" v-model="currentPage" :total-records="totalCount" :rows="PAGE_SIZE"
-          @page-change="handlePageChange" @same-page-clicked="handleSamePageClick"/>
+        <AppPagination 
+          v-if="shouldShowPagination"
+          v-model="currentPage"
+          :total-records="totalCount"
+          :rows="PAGE_SIZE"
+          @page-change="handlePageChange"
+          @same-page-clicked="handleSamePageClick"
+        />
       </div>
     </div>
   </main>
@@ -53,13 +51,14 @@
 <script setup lang="ts">
 import RepositoryCard from '@/entities/repository/ui/RepositoryCard.vue';
 import AppTextField from '@/shared/ui/text-field';
-import { onMounted, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { Size } from '@/shared/model/ui';
 import { fetchRepositores } from '../api';
 import type { GithubRepo } from '@/entities/repository/model/GithubRepo';
 import { debounce, scrollToTop } from '@/shared/lib/utils';
 import AppPagination from '@/shared/ui/pagination';
 import { useBookmarkService } from '@/entities/repository/lib/useBookmarkService';
+import RepositoryCardSkeleton from '@/entities/repository/ui/RepositoryCardSkeleton.vue';
 
 const bookmarkService = useBookmarkService();
 const items = ref<GithubRepo[]>([])
@@ -74,6 +73,10 @@ const isLoading = ref(false);
 const getRepositories = async () => {
   try {
     isLoading.value = true;
+
+    if(!query.value) return;
+
+    // await new Promise(r => setTimeout(r, 60000))
     const response = await fetchRepositores(query.value, currentPage.value);
 
     if (response) {
@@ -100,10 +103,16 @@ const handleSamePageClick = () => {
 }
 
 const handleSearchInput = debounce(() => {
+  if(!query.value) return;
+
   currentPage.value = 1;
   totalCount.value = 0;
   getRepositories();
 }, 400)
+
+const shouldShowPagination = computed(() => {
+  return items.value.length && totalCount.value != items.value.length
+})
 
 const handleBookmark = (id: number) => {
   const repositoryIndex = items.value.findIndex((repo) => repo.id == id)
@@ -120,7 +129,6 @@ onMounted(() => {
 
 <style scoped lang="scss">
 @use 'sass:color';
-$card-width: 300px;
 
 main {
   display: flex;
@@ -146,25 +154,24 @@ main {
       &__wrapper {
         display: flex;
         flex-direction: column;
-        min-width: $card-width;
-        max-width: calc($card-width * 2 + $spacing-xl);
         flex: 1;
         gap: $spacing-sm;
       }
 
       .search-field {
         box-shadow: $shadow-sm;
-        width: 100%;
+        min-width: 240px;
+        max-width: 640px;
         aspect-ratio: 12/1;
       }
     }
 
     &__repos {
+      box-sizing: border-box;
       display: grid;
-      grid-template-columns: repeat(auto-fit, $card-width);
+      grid-template-columns: repeat(auto-fill, minmax(270px, 4fr));
       gap: $spacing-xl;
       justify-content: center;
-      flex-shrink: 1;
 
       &--empty {
         display: flex;
@@ -183,68 +190,5 @@ main {
       margin-bottom: $spacing-lg;
     }
   }
-}
-
-.loading {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background-color: rgba($color-surface, 0.7);
-  border-radius: $border-radius-lg;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* HTML: <div class="loader"></div> */
-  .loader {
-    height: 30px;
-    aspect-ratio: 2.5;
-    --_g: no-repeat radial-gradient(farthest-side, #000 90%, #0000);
-    background: var(--_g), var(--_g), var(--_g), var(--_g);
-    background-size: 20% 50%;
-    animation: l43 1s infinite linear;
-  }
-
-  @keyframes l43 {
-    0% {
-      background-position: calc(0*100%/3) 50%, calc(1*100%/3) 50%, calc(2*100%/3) 50%, calc(3*100%/3) 50%
-    }
-
-    16.67% {
-      background-position: calc(0*100%/3) 0, calc(1*100%/3) 50%, calc(2*100%/3) 50%, calc(3*100%/3) 50%
-    }
-
-    33.33% {
-      background-position: calc(0*100%/3) 100%, calc(1*100%/3) 0, calc(2*100%/3) 50%, calc(3*100%/3) 50%
-    }
-
-    50% {
-      background-position: calc(0*100%/3) 50%, calc(1*100%/3) 100%, calc(2*100%/3) 0, calc(3*100%/3) 50%
-    }
-
-    66.67% {
-      background-position: calc(0*100%/3) 50%, calc(1*100%/3) 50%, calc(2*100%/3) 100%, calc(3*100%/3) 0
-    }
-
-    83.33% {
-      background-position: calc(0*100%/3) 50%, calc(1*100%/3) 50%, calc(2*100%/3) 50%, calc(3*100%/3) 100%
-    }
-
-    100% {
-      background-position: calc(0*100%/3) 50%, calc(1*100%/3) 50%, calc(2*100%/3) 50%, calc(3*100%/3) 50%
-    }
-  }
-}
-
-.v-enter-active,
-.v-leave-active {
-  transition: opacity 0.5s ease;
-}
-
-.v-enter-from,
-.v-leave-to {
-  opacity: 0;
 }
 </style>
