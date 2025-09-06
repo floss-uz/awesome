@@ -19,10 +19,22 @@
 
       <!-- main content -->
       <div v-if="items && items.length" class="main-content__repos">
-        <RepositoryCard v-for="item in items" :key="item.id" :author="item.owner.login"
-          :author-url="item.owner.html_url" :repo-url="item.html_url" :name="item.name" :description="item.description"
-          :stars="item.stargazers_count" :img="item.owner.avatar_url" :language="item.language"
-          :updated-at="item.updated_at" />
+        <RepositoryCard 
+          v-for="item in items"
+          :key="item.id"
+          :id="item.id"
+          :author="item.owner.login"
+          :author-url="item.owner.html_url"
+          :repo-url="item.html_url" 
+          :name="item.name"
+          :description="item.description"
+          :stars="item.stargazers_count"
+          :img="item.owner.avatar_url"
+          :language="item.language"
+          :updated-at="item.updated_at"
+          :is-saved="bookmarkService.bookmarkedSet.value.has(item.id)"
+          @bookmark="handleBookmark"
+        />
       </div>
       <!-- <Transition>
         <div v-if="!items || !items.length" class="main-content__repos--empty">
@@ -46,10 +58,10 @@ import { Size } from '@/shared/model/ui';
 import { fetchRepositores } from '../api';
 import type { GithubRepo } from '@/entities/repository/model/GithubRepo';
 import { debounce, scrollToTop } from '@/shared/lib/utils';
-// import AppButton from '@/shared/ui/button/AppButton.vue';
 import AppPagination from '@/shared/ui/pagination';
+import { useBookmarkService } from '@/entities/repository/lib/useBookmarkService';
 
-
+const bookmarkService = useBookmarkService();
 const items = ref<GithubRepo[]>([])
 
 const PAGE_SIZE = 30;
@@ -92,6 +104,13 @@ const handleSearchInput = debounce(() => {
   totalCount.value = 0;
   getRepositories();
 }, 400)
+
+const handleBookmark = (id: number) => {
+  const repositoryIndex = items.value.findIndex((repo) => repo.id == id)
+  if(repositoryIndex < 0) return;
+
+  bookmarkService.toggleBookmark(items.value[repositoryIndex])
+}
 
 onMounted(() => {
   getRepositories();

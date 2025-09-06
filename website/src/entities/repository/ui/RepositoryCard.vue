@@ -5,8 +5,19 @@
         <a :href="authorUrl">
           <AppAvatar :src="img" :alt="`img-${author}`" />
         </a>
-        <AppButton :severity="Severity.SECONDARY" label="Save" outlined small class="save-btn" :size="Size.SMALL" icon-only>
-          <IconBookmark />
+        <AppButton 
+          :severity="isSaved ? Severity.SUCCESS : Severity.SECONDARY"
+          :size="Size.SMALL"
+          label="Save"
+          small
+          class="save-btn"
+          icon-only
+          :outlined="!isSaved"
+          :title="isSaved ? 'Saved' : 'Save'"
+          @click="emit('bookmark', id)"
+        >
+          <IconBookmarkChecked v-if="isSaved"></IconBookmarkChecked>
+          <IconBookmark v-else />
         </AppButton>
       </div>
 
@@ -42,10 +53,12 @@ import AppCardBase from '@/shared/ui/card/AppCardBase.vue';
 import AppAvatar from '@/shared/ui/avatar';
 import AppButton from '@/shared/ui/button';
 import IconBookmark from '@/shared/ui/icons/IconBookmark.vue';
+import IconBookmarkChecked from '@/shared/ui/icons/IconBookmarkChecked.vue';
 import { Severity } from '@/shared/model/ui';
 import { Size } from '@/shared/model/ui';
 
 interface Props {
+  id: number;
   author: string;
   authorUrl: string;
   repoUrl: string;
@@ -56,12 +69,17 @@ interface Props {
   language?: string | null;
   updatedAt: string;
   hideActionButton?: boolean;
+  isSaved?: boolean;
 }
 
 withDefaults(defineProps<Props>(), {
   description: '',
   hideActionButton: false,
+  isSaved: true
 })
+
+const emit = defineEmits(['bookmark'])
+
 
 const timeAgo = (dateString: string): string => {
   const now = new Date();

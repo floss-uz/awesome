@@ -1,0 +1,1 @@
+export const REPOSITORY_BOOKMARK_KEY = 'savedRepositories';
