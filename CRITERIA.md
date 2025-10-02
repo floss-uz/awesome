@@ -14,5 +14,6 @@
       - "Mening X tildagi yechimlarim"
       - "X mavzusidagi mashqlarim"
    4. Tashlab ketilgan yoki arxivlangan dastur va loyihalar ruxsat etilmaydi.
+   5. Suniy Intellekt (AI) yordami yoki orqali yozilgan loyihalar qat'iyan man qilinadi.
 2. Open Source Dasturiy ta'minot **Egasi**.
    1. Agar tepada keltirilgan mezonlarni qoniqtirgan biron loyiha egasi bo'lmasa, ro'yxat ga kiritilishi qat'iyan man etiladi.
