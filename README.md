@@ -54,7 +54,6 @@
 - [cron-jobs-scheduler](https://github.com/MahdiyDev/cron-jobs) - C++ yordamida yozilgan cron joblar.
 - [cluster-service](https://github.com/akhmadiy/cluster-service) - Nodejs da yozilgan oddiy cluster servisi.
 - [DNS Server](https://github.com/ismoilovdevml/dns-server) - Rust Dasturlash tilida yozilgan DNS Server.
-- [RustStrom](https://github.com/ismoilovdevml/RustStrom) - Rust dasturlash tilida yozilgan samarali load balancer.
 - [IPTools](https://github.com/S1lentium/IPTools) - IPv4 va IPv6 bilan ishlash uchun PHP kutubxonasi.
 
 ### O'zbek tili
@@ -79,7 +78,6 @@
 ### Vositalar
 - [JPRQ](https://github.com/azimjohn/jprq) - Lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun ochiq vosita.
 - [Portier-ADPS](https://github.com/fromgodd/portier-adps) - Python da yozilgan modulyar mikroservislar uchun asinxron port skanner.
-- [RMX](https://github.com/ismoilovdevml/rmx) - Rust dasturlash tilida yozilgan rm alternativi.
 - [Makudaun!](https://github.com/dark-voyage/makudaun) - Rust dasturlash tilida yozilgan Markdown dan HTML ga o'giruvchi vosita.
 - [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi) - Java va Go da yozilgan lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun bepul vosita.
 
