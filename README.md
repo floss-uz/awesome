@@ -146,6 +146,7 @@
 - [@jamshid-elmurodov](https://github.com/jamshid-elmurodov)
 - [@Xayrulloh](https://github.com/Xayrulloh)
 - [@xaldarof](https://github.com/xaldarof)
+- [@JahongirHakimjonov](https://github.com/JahongirHakimjonov)
 
 ## Tashkilotlar
 - [biodasturchi](https://github.com/biodasturchi)
