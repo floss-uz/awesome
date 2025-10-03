@@ -147,6 +147,7 @@
 - [@jamshid-elmurodov](https://github.com/jamshid-elmurodov)
 - [@Xayrulloh](https://github.com/Xayrulloh)
 - [@xaldarof](https://github.com/xaldarof)
+- [@JahongirHakimjonov](https://github.com/JahongirHakimjonov)
 - [@Azamov_Samandar](https://github.com/JscorpTech)
 
 ## Tashkilotlar
