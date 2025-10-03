@@ -37,6 +37,7 @@
 - [flask_clickuz](https://github.com/Odya-LLC/flask_clickuz) - Python/Flask uchun Click API intergratsiyasi.
 - [Korrektor Py](https://github.com/AbduazizZiyodov/korrektor-py) - Korrektor-Py - korrektor.uz web sahifasi uchun yozilgan API qisqartmalar kutubxonasi.
 - [paymego](https://github.com/PayTechUz/paymego) - Go dasturlash tili uchun yozilgan Payme SDK.
+- [paycue](https://github.com/UzStack/paycue) - Telegram va Humo orqali to‘lovlarni avtomatlashtiruvchi open source servis.
 
 
 ### Dasturlash tillari
@@ -146,6 +147,7 @@
 - [@jamshid-elmurodov](https://github.com/jamshid-elmurodov)
 - [@Xayrulloh](https://github.com/Xayrulloh)
 - [@xaldarof](https://github.com/xaldarof)
+- [@Azamov_Samandar](https://github.com/JscorpTech)
 
 ## Tashkilotlar
 - [biodasturchi](https://github.com/biodasturchi)
