@@ -75,6 +75,7 @@
 - [dotnet-docs](https://github.com/uzdotnet/docs) - .NET dokumentatsiyasi o'zbek tilida.
 - [howdnsworks-uz](https://github.com/rarebek/howdnsworks-uz) - DNS qanday ishlashini o'rganing (tarjima)
 - [AlgoDS](https://github.com/sherxon/AlgoDS) - Algoritmlar va ma'lumot tuzilmalarini Javadagi yechimlar to'plami.
+- [lerax](https://github.com/nnolan-oss/lerax) - Dasturlashni o‘zbek tilida namunalar bilan o‘rganing
 
 ### Vositalar
 - [JPRQ](https://github.com/azimjohn/jprq) - Lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun ochiq vosita.
@@ -149,6 +150,7 @@
 - [@xaldarof](https://github.com/xaldarof)
 - [@JahongirHakimjonov](https://github.com/JahongirHakimjonov)
 - [@Azamov_Samandar](https://github.com/JscorpTech)
+- [@3nln](https://github.com/3nln)
 
 ## Tashkilotlar
 - [biodasturchi](https://github.com/biodasturchi)
@@ -164,3 +166,4 @@
 - [uzdotnet](https://github.com/uzdotnet)
 - [UZINFOCOM](https://github.com/uzinfocom-org)
 - [UzStack](https://github.com/UzStack)
+- [nnolan-oss](https://github.com/nnolan-oss)
