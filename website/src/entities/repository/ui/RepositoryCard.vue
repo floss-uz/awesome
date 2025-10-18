@@ -40,7 +40,10 @@
             <b>{{ truncateStars(stars) }}</b>
             <small> stars</small>
           </span>
-          <small v-if="language">{{ language }}</small>
+          <small  v-if="language" class="repository-card__footer__language" >
+            <span :style="getLanguageColor(language as Language)"></span>
+            {{ language }}
+          </small>
           <small v-else>No language</small>
         </div>
         <a v-if="!hideActionButton" :href="repoUrl" target="_blank">
@@ -59,6 +62,7 @@ import IconBookmark from '@/shared/ui/icons/IconBookmark.vue';
 import IconBookmarkChecked from '@/shared/ui/icons/IconBookmarkChecked.vue';
 import { Severity } from '@/shared/model/ui';
 import { Size } from '@/shared/model/ui';
+import languageColors from '@/shared/assets/languageColors.json';
 
 interface Props {
   id: number;
@@ -83,6 +87,13 @@ withDefaults(defineProps<Props>(), {
 
 const emit = defineEmits(['bookmark'])
 
+type Language = keyof typeof languageColors;
+
+const getLanguageColor = (language: Language) => {
+  if(languageColors[language]) {
+    return `background-color: ${languageColors[language]}`;
+  }
+}
 
 const timeAgo = (dateString: string): string => {
   const now = new Date();
@@ -181,6 +192,20 @@ const truncateStars = (stars: number): string => {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    &__language {
+      display: flex;
+      align-items: center;  
+      gap: 4px;
+
+      span {
+        width: 10px;
+        height: 10px;
+        border: transparent;
+        border-radius: 50%;
+        background-color: rgb(212, 212, 212);
+      }
+    }
   }
 
   &__bottom-info {
