@@ -101,6 +101,7 @@
 - [Runeo Smart Terminal](https://github.com/ismoilovdevml/runeo) - Rust dasturlash tilida yozilgan OpenAI API-si bilan bo'glangan smart terminal.
 - [MusicCLI](https://github.com/otabekswe/MusicCLI) - Terminal foydalanuvchilar uchun yaratilgan qulay musiqa yuklash dasturi.
 - [Terminal News](https://github.com/knoxydev/terminal-news) - Terminaldan yangiliklarni o'qish uchun dastur.
+ - [shell_gpt](https://github.com/TheR1D/shell_gpt) - GPT-4 kabi modellarga asoslangan terminal vositasi — vazifalarni tezroq va samaraliroq bajaradi.
 
 ### Boshqa
 - [Izharul Ifadat](https://github.com/OgabekDev/IzharulIfadat) - Islom dini 10 bobini tushunish uchun foydalanuvchilarga audio darslar va duo o'qish uchun mobil ilova.
