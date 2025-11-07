@@ -82,6 +82,7 @@
 - [Portier-ADPS](https://github.com/fromgodd/portier-adps) - Python da yozilgan modulyar mikroservislar uchun asinxron port skanner.
 - [Makudaun!](https://github.com/dark-voyage/makudaun) - Rust dasturlash tilida yozilgan Markdown dan HTML ga o'giruvchi vosita.
 - [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi) - Java va Go da yozilgan lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun bepul vosita.
+- [FIAS](https://github.com/fiasuz/create-fias) - Frontend uchun production ready loyiha yaratib beruvchi mini Framework (bioperlate).
 
 ### Web
 - [nanoexpress](https://github.com/nanoexpress/nanoexpress) - Node.js uchun yozilgan professional backend freymvorki.
@@ -151,6 +152,7 @@
 - [@JahongirHakimjonov](https://github.com/JahongirHakimjonov)
 - [@Azamov_Samandar](https://github.com/JscorpTech)
 - [@3nln](https://github.com/3nln)
+- [@usmanovdev](https://github.com/usmonovdev)
 
 ## Tashkilotlar
 - [biodasturchi](https://github.com/biodasturchi)
@@ -167,3 +169,4 @@
 - [UZINFOCOM](https://github.com/uzinfocom-org)
 - [UzStack](https://github.com/UzStack)
 - [nnolan-oss](https://github.com/nnolan-oss)
+- [FIASUZ](https://github.com/fiasuz)
