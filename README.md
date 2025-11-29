@@ -82,7 +82,7 @@
 - [Portier-ADPS](https://github.com/fromgodd/portier-adps) - Python da yozilgan modulyar mikroservislar uchun asinxron port skanner.
 - [Makudaun!](https://github.com/dark-voyage/makudaun) - Rust dasturlash tilida yozilgan Markdown dan HTML ga o'giruvchi vosita.
 - [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi) - Java va Go da yozilgan lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun bepul vosita.
-- [FIAS](https://github.com/fiasuz/create-fias) - Frontend uchun production ready loyiha yaratib beruvchi mini Framework (bioperlate).
+- [FIAS](https://github.com/fiasuz/create-fias) - Frontend uchun production ready loyiha yaratib beruvchi mini Framework (boilerplate).
 
 ### Web
 - [nanoexpress](https://github.com/nanoexpress/nanoexpress) - Node.js uchun yozilgan professional backend freymvorki.
