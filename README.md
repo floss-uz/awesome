@@ -143,7 +143,6 @@
 - [sukhrobkhakimov](https://github.com/sukhrobkhakimov)
 - [@S1lentium](https://github.com/S1lentium)
 - [@sherxon](https://github.com/sherxon)
-- [@thelissimus](https://github.com/thelissimus)
 - [@uwussimo](https://github.com/uwussimo)
 - [@yetimdasturchi](https://github.com/yetimdasturchi)
 - [@zero-suger](https://github.com/zero-suger)

@@ -3,7 +3,7 @@ name: Suggest a repository
 about: Suggest maintainer of awesome uzbek open source a new uzbek open source project.
 title: "[NEW] My project"
 labels: new
-assignees: thelissimus
+assignees: orzklv
 
 ---
 
