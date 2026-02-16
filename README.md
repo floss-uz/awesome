@@ -32,11 +32,9 @@
 
 ### API
 - [payme-pkg](https://github.com/PayTechUz/payme-pkg) - Python da yozilgan Payme bilan [Merchant] va [Subscribe] API integratsiyasi.
-- [payme-sample](https://github.com/PayTechUz/payme-sample) - Python/Django uchun yozilgan Payme integratsiyalaridan misollar.
 - [flask_oneid](https://github.com/Odya-LLC/flask_oneid) - Python/Flask uchun OneID API integratsiyasi.
 - [flask_clickuz](https://github.com/Odya-LLC/flask_clickuz) - Python/Flask uchun Click API intergratsiyasi.
 - [Korrektor Py](https://github.com/AbduazizZiyodov/korrektor-py) - Korrektor-Py - korrektor.uz web sahifasi uchun yozilgan API qisqartmalar kutubxonasi.
-- [paymego](https://github.com/PayTechUz/paymego) - Go dasturlash tili uchun yozilgan Payme SDK.
 - [paycue](https://github.com/UzStack/paycue) - Telegram va Humo orqali to‘lovlarni avtomatlashtiruvchi open source servis.
 
 
@@ -53,12 +51,10 @@
 - [devops-tools](https://github.com/ismoilovdevml/devops-tools) - Ismoilovdevml ishlatgan va yozgan devops dasturlar.
 - [docker-dashboard](https://github.com/AbduazizZiyodov/docker-dashboard) - Docker bilan ishlash uchun oson va yengil grafik interfeys.
 - [cron-jobs-scheduler](https://github.com/MahdiyDev/cron-jobs) - C++ yordamida yozilgan cron joblar.
-- [cluster-service](https://github.com/akhmadiy/cluster-service) - Nodejs da yozilgan oddiy cluster servisi.
 - [DNS Server](https://github.com/ismoilovdevml/dns-server) - Rust Dasturlash tilida yozilgan DNS Server.
 - [IPTools](https://github.com/S1lentium/IPTools) - IPv4 va IPv6 bilan ishlash uchun PHP kutubxonasi.
 
 ### O'zbek tili
-- [Korrektor Rust Lib](https://git.kolyma.uz/korrektor/korrektor-rs) - O'zbek tiliga oid Rust da yozilgan har xil yordamchi vositalar to'plami.
 - [TurkicASR](https://github.com/IS2AI/TurkicASR) - Nutqni avtomatik aniqlash (ASR) modeli
 - [izohli_lugat](https://github.com/jasur-2902/izohli_lugat) - O'zbek tilining izohli lug'at mobil ilovasi
 - [fitrat](https://github.com/tahrirchi/fitrat) - O'zbek tili uchun NLP kutubxonasi
@@ -118,7 +114,6 @@
 
 ## Dasturchilar
 - [@azimjohn](https://github.com/azimjohn)
-- [@akhmadiy](https://github.com/akhmadiy)
 - [@AbduazizZiyodov](https://github.com/AbduazizZiyodov)
 - [@dxtym](https://github.com/dxtym)
 - [@diyorbek](https://github.com/diyorbek)
