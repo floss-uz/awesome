@@ -153,7 +153,6 @@
 
 ## Tashkilotlar
 - [biodasturchi](https://github.com/biodasturchi)
-- [Deno Land | O'zbekiston](https://github.com/denolanduz)
 - [milliytech](https://github.com/milliytech)
 - [nanoexpress](https://github.com/nanoexpress)
 - [Odya-LLC](https://github.com/Odya-LLC)
