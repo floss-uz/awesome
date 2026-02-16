@@ -114,6 +114,7 @@
 - [Doppi-Detection](https://github.com/zero-suger/Doppi-Detection-YOLO_v8) - Rasmda milliy doppimiz borligini aniqlash.
 - [gmx](https://github.com/biodasturchi/gmx) - Gromacs yordamida molekular modellashtirish.
 - [tuynuk-mobile](https://github.com/Tuynuk/tuynuk-mobile) - Xavfsiz fayl jo'natmalari uchun mobil ilova.
+- [Github-Store](https://github.com/rainxchzed/Github-Store) - Bepul va ochiq manbali ilovalar do'koni.
 
 ## Dasturchilar
 - [@azimjohn](https://github.com/azimjohn)
@@ -139,6 +140,7 @@
 - [@realtemirov](https://github.com/realtemirov)
 - [@rahmonov](https://github.com/rahmonov)
 - [@rarebek](https://github.com/rarebek)
+- [@rainxchzed](https://github.com/rainxchzed)
 - [@saidafzalkh](https://github.com/saidafzalkh)
 - [sukhrobkhakimov](https://github.com/sukhrobkhakimov)
 - [@S1lentium](https://github.com/S1lentium)
