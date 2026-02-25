@@ -39,8 +39,6 @@
 
 
 ### Dasturlash tillari
-- [Osmon](https://git.kolyma.uz/osmon/osmon) - Osmon dasturlash tili.
-- [Havo](https://git.kolyma.uz/osmon/havo) - Osmon dasturlash tili uchun yozilgan statik kompilyator.
 - [Kocha Lang](https://github.com/kocha-lang/kocha) - Kocha dastrulash tili.
 - [Stubler](https://github.com/fromgodd/stubler-lang) - Assembler ga o'xshash dasturlash til.
 - [UzbekLang](https://github.com/urverse-uz/UzbekLang) - Kotlinda yozilgan o'zbek dasturlash tili.
@@ -64,7 +62,7 @@
 - [uzbek-badwords](https://github.com/milliytech/uzbek-badwords) - Yomon so'zlar arxivi.
 - [Uzbek-language](https://github.com/QuvonchbekBobojonov/Uzbek-language) - Imlo xatolarini topish va lotin yozuvdan kirill yozuviga tarjima qilish Pip paketi.
 
-### Ta'lim 
+### Ta'lim
 - [devops-journey](https://github.com/ismoilovdevml/devops-journey) - DevOps Journey bu open source ta'lim platformasidir.
 - [dsalgo.uz](https://github.com/otabekswe/dsalgo) - "Data Structure and Algorithms" uchun O'zbek tilidagi va illustratsiyalarga boy bo'lgan qo'llanma.
 - [ops-in-maang](https://github.com/ismoilovdevml/ops-in-maang) - MAANG dagi Ops ga oid ma'lumotlar to'plami.
@@ -79,6 +77,7 @@
 - [Makudaun!](https://github.com/dark-voyage/makudaun) - Rust dasturlash tilida yozilgan Markdown dan HTML ga o'giruvchi vosita.
 - [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi) - Java va Go da yozilgan lokal serverlarni umumiy tarmoqqa (internetga) ochish uchun bepul vosita.
 - [FIAS](https://github.com/fiasuz/create-fias) - Frontend uchun production ready loyiha yaratib beruvchi mini Framework (boilerplate).
+- [Bleur](https://github.com/bleur-org/bleur) - Loyihalarni tezda boshlab olishga yordam beruvchi utilita.
 
 ### Web
 - [nanoexpress](https://github.com/nanoexpress/nanoexpress) - Node.js uchun yozilgan professional backend freymvorki.
@@ -112,6 +111,7 @@
 - [tuynuk-mobile](https://github.com/Tuynuk/tuynuk-mobile) - Xavfsiz fayl jo'natmalari uchun mobil ilova.
 - [Github-Store](https://github.com/rainxchzed/Github-Store) - Bepul va ochiq manbali ilovalar do'koni.
 - [Family-Tree](https://github.com/Xayrulloh/Family-Tree) - Oilangizning shajara tarixini yaratish, boshqarish va avlodlar bilan ulashish uchun raqamli platforma.
+- [E-IMZO Manager](https://github.com/xinux-org/e-imzo-manager) - E-IMZO servisini Linux tizimida qulaygina ishlatishda yordam beruvchi vosita.
 
 ## Dasturchilar
 - [@azimjohn](https://github.com/azimjohn)
@@ -154,16 +154,17 @@
 
 ## Tashkilotlar
 - [biodasturchi](https://github.com/biodasturchi)
+- [Bleur's Stack](https://github.com/bleur-org)
 - [milliytech](https://github.com/milliytech)
 - [nanoexpress](https://github.com/nanoexpress)
 - [Odya-LLC](https://github.com/Odya-LLC)
-- [Osmon Dasturlash Tili](https://github.com/osmon-lang)
 - [PayTechUz](https://github.com/PayTechUz)
 - [Rust - O'zbek Jamiyati](https://github.com/rust-lang-uz)
 - [Tahrirchi](https://github.com/tahrirchi)
 - [Tigernet](https://github.com/tigernetframework)
 - [uzdotnet](https://github.com/uzdotnet)
 - [UZINFOCOM](https://github.com/uzinfocom-org)
+- [Xinux O'zbekiston](https://github.com/xinux-org)
 - [UzStack](https://github.com/UzStack)
 - [nnolan-oss](https://github.com/nnolan-oss)
 - [FIASUZ](https://github.com/fiasuz)
