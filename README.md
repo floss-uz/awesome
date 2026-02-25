@@ -110,7 +110,9 @@
 - [gmx](https://github.com/biodasturchi/gmx) - Gromacs yordamida molekular modellashtirish.
 - [tuynuk-mobile](https://github.com/Tuynuk/tuynuk-mobile) - Xavfsiz fayl jo'natmalari uchun mobil ilova.
 - [Github-Store](https://github.com/rainxchzed/Github-Store) - Bepul va ochiq manbali ilovalar do'koni.
+- [Family-Tree](https://github.com/Xayrulloh/Family-Tree) - Oilangizning shajara tarixini yaratish, boshqarish va avlodlar bilan ulashish uchun raqamli platforma.
 - [E-IMZO Manager](https://github.com/xinux-org/e-imzo-manager) - E-IMZO servisini Linux tizimida qulaygina ishlatishda yordam beruvchi vosita.
+
 ## Dasturchilar
 - [@azimjohn](https://github.com/azimjohn)
 - [@AbduazizZiyodov](https://github.com/AbduazizZiyodov)
